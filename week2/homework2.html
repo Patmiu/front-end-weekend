@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <title>艾氪森科技(techaction.cn)</title> 
+    <style type="text/css">
+        body{
+            background:#99ffff url("../images/fish.jpg") repeat ;
+            
+        }
+        table {
+            border :3px solid black;
+            border-collapse:collapse;
+            margin: 0 auto; 
+        }
+        th,td{
+            border:2px solid black;
+        }
+        h1{
+            font-family:"Times New Roman", serif;}
+        h2{
+            font-family :"Georgia",serif;
+            font-style:oblique;
+        }
+        a:link{
+            color:#42b5e8;
+            text-decoration:none;
+            }
+        a:visited{
+            color:#d3a7eb;
+            text-decoration:none;
+        }
+        a：hover{
+            color:#4388eb;
+            text-decoration:underline;
+        }
+        a:active{
+            color:#5e43eb;
+            text-decoration:underline;
+        }
+    </style>
+</head> 
+<body>
+    <table border="1" cellspacing="0" cellpadding="10">
+    <tr>
+        <td colspan="2">
+            <img src="../images/logo.png" alt="logo" width="424" height="124">
+            <h1>北京欢迎你</h1>
+            <h2>有梦想谁都了不起</h2>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>导航</h3>
+            <ul>
+                <li><a href="submit">登录</a></li>
+                <li><a href="new_user">注册新用户</a></li>
+            </ul>
+        </td>
+        <td>
+            <form action="http://baidu.com" method="post">
+                    <table border="1" cellspacing="0" cellpadding="10">
+                        <tr>
+                            <th colspan="4">用户注册</th>
+                        </tr>
+                        <tr>
+                            <td>用户名：</td>
+                            <td><input name="username" type="text"></td>
+                            <th colspan="2"><a href="/check/">检测是否有相同用户名</a></th>
+                        </tr>
+                        <tr>
+                            <td>密码：</td>
+                            <td><input name="password" type="password">*(至少六位)</td>
+                            <td>真实姓名：</td>
+                            <td><input name="relname" type="text">*</td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td><label><input type="radio" name="sex" value="male">男</label>
+                                <label><input type="radio" name="sex" value="female">女</label></td>
+                            <td>爱好：</td>
+                            <td><label><input type="checkbox" name="interest" value="reading">读书</label>
+                                <label><input type="checkbox" name="interest" value="film">看电影</label></td>
+                        </tr>
+                        <tr>
+                            <td>证件类型：</td>
+                            <td><select name="equipment">
+                                    <option value="1">身份证</option>
+                                    <option value="2">学生证</option>
+                                    <option value="3">护照</option>
+                                    <option value="4">校园卡</option>
+                                </select></td>
+                            <td>证件号码</td>
+                            <td><input name="number" type="text">*</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><input type="reset" value="重置"><input type="submit" value="登录"></td>
+                        </tr>
+                    </table>
+                </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">&copy;2018 艾氪森科技 鲁ICP备15027110号-2</td>
+    </tr>
+    </table>
+</body> 
+</html>
